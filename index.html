@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Instagram</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!--seccion logo-->
+	<header>
+		<nav>
+			<div class="container1">
+				<img src="assets/imagenes/Instagram_logo.svg.png" alt=""></div>
+		</nav>
+	</header>
+
+	<!--seccion foto-->
+	<section>
+		<div class="container center">
+			<div class="img"><img src="assets/imagenes/littlepig.png" alt=""></div>
+		</div>
+	</section>
+
+	<!--seccion textarea, boton y cocntenedor mensajes-->
+	<section class="center">
+		<div class="container2">
+			<textarea class="txt" id="comment" placeholder="Agrega un comentario... "></textarea>
+			<button type="button" id="btn" onclick="add()"><i class="fa fa-plus" aria-hidden="true"></i>Agregar</button>
+			<div id="cont"></div> <!--crear en DOM-->
+		</div>
+	</section>
+
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+body {
+	text-align: center;
+}
+.container1 img {
+	width: 400px;
+}
+.img {
+	display: inline-block;
+	border: 1px solid #BBB9B9;
+	padding: 60px;
+}
+.img img {
+	width: 400px;
+	height: 500px;
+}
+.center {
+	margin-top: 20px;
+}
+textarea {
+	content: 2px 150px;
+
+}
+button {
+	padding: 10px;
+	background: #222D3D;
+	display: block;
+	margin-left: 600px;
+	color: #fff;
+
+}
+/* estilo de la barra de comentario*/
+#cont {
+	margin-left: 1em;
+	text-align: left;
+}
+#cont div {
+	padding: 1em 0.5em;
+	margin-bottom: 2em;
+	outline: 0.1em solid #e5e3f2;
+	background-color: #fff;
+}
+.heart, .trash {
+	margin: 1em;
+	float: right;
+}
+.trash:hover {
+	color: #1da1f2;
+	cursor: pointer;
+}
+.strike-out {
+	text-decoration: line-through;
+	color: #1da1f2;
+}
+.red {
+	color: #fc1e26;
+	cursor: pointer;
+}
+p {
+	display: inline-block;
+	margin-left: 0.5em;
+}
